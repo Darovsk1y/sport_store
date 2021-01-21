@@ -51,9 +51,16 @@
 						</a>
 					</div>
 					<div class="header__search">
-						<a href="#" class="header__icon">
+						<a href="#" class="header__icon header__icon_search">
 							<img src="img/header/search .png" alt="">
 						</a>
+						<!--todo Добавили поле поиска -->
+						<form action="#" class="header__search-form search-form form">
+							<div class="search-form__line">
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="" class="search-form__input input">
+								<button type="submit" class="search-form__btn btn btn_3">Найти</button>
+							</div>
+						</form>
 					</div>
 			</div>
 
@@ -783,7 +790,7 @@
 				<div class="footer__line">
 					<form action="#" class="form">
 						<label for="inp" class="form__label"> NEWSLETTER SIGN UP</label>
-						<input id="inp" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="" class="input">
+						<input id="inp" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="" class="footer__input input">
 						<button type="submit" class="form__btn btn">SHOP NOW</button>
 					</form>
 				</div>
